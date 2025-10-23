@@ -3,9 +3,9 @@ name: Generate Pacman Contribution Graph
 on:
   push:  # Trigger on pushes to any branch in Alex807 repo
     branches:
-      - '**'  # Matches all branches (main, output, feature branches, etc.)
-  workflow_dispatch:  # Keep manual trigger as a backup
-  schedule:  # Fallback to ensure updates if you don’t push to Alex807 often
+      - '**'  # Matches all branches (main, output, etc.)
+  workflow_dispatch:  # Allows manual triggering as backup
+  schedule:  # Fallback to update daily if no pushes
     - cron: '0 0 * * *'  # Runs daily at midnight UTC
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
         with:
           username: Alex807  # Your GitHub username
           output: output      # Folder to save SVGs
-          theme: github      # GitHub’s default theme (or try 'github-dark')
+          theme: github      # GitHub’s default theme
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
