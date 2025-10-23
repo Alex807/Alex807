@@ -10,7 +10,7 @@
 [Add skill badges/icons]
 
 ## GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/apiAlex807=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Connect with Me
 [LinkedIn] | [Portfolio] | [Email]
