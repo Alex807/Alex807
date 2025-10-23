@@ -44,7 +44,7 @@ I'm a student at University Polytechnic from Timisoara in 4th year of study in c
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alex807/Alex807/output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alex807/Alex807/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Alex807/Alex807/output/pacman-contribution-graph.svg">
+  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/Alex807/Alex807/output/pacman-contribution-graph.svg">
 </picture>
 
 
